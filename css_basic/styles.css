@@ -1,0 +1,52 @@
+body
+{
+    display:flex;
+    flex-direction: column;
+}
+
+main 
+{
+    dispaly:flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article
+{
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside
+{
+    flex: 1;
+    overflow-y: auto;
+}
+
+h1
+{
+    color: darkorange;
+    background-color: black;
+    justify-content: center;
+}
+
+p
+{
+    color: black;
+}
+
+a
+{
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+a:hover
+{
+    color: darkred;
+}
+
+.works_on_smartphone
+{
+    background-color: blueviolet;
+    font-size: 16px;
+}
