@@ -188,6 +188,10 @@
     list-style: none;
   }
   
+  .row{
+    display: flex;
+  }
+  
   [class*='col-'] {
     padding: 0.5rem;
   }
