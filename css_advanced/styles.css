@@ -1,3 +1,7 @@
+/*Global
+================= */
+
+
 /* Banner
    ================ */
 
@@ -24,71 +28,120 @@
    ================= */
 
    .nav-item a {
-    color: white;
-    padding: 10px;
-    font-weight: bold;
-   } 
+      color: white;
+      padding: 10px;
+      font-weight: bold;
+     } 
+  
+  /*  Main
+     ================= */
+     
+     .main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     }
+  
+     h1 {
+        color: white;
+        font-size: 100px;
+        font-weight: 100px;
+     }
+  
+     .main p {
+       color: white;
+       font-size: 50px;
+       font-weight: 50px;
+     }
+  
+     .main button {
+        background-color: purple;
+        color: white;
+        border: none;
+     }
+  
+  /*  Pros Awards 
+     ============== */
+     
+     .pros {
+        text-align: center;
+     }
+  
+     .purple {
+     color: purple;
+     }
+  
+     .white {
+      color: white;
+     }
+  
+     .award {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+     }
+     
+     .Phillip, .Nannie, .Bruce, .Henry{
+        margin-right: 80px;
+     }
+  
+  
+  /* Review
+   ================== */
+  
+   .testimonial {
+     display: flex;
+     justify-content: space-between;
+     padding: 10px;
+     background-color: purple;  
+   }
 
-/*  Main
+   .testimonial img {
+      margin: 80px;
+   }
+
+   .feedback {
+      color: white;
+      margin: 80px;
+   }
+
+   /* Tutorials
    ================= */
-   
-   .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   }
 
-   h1 {
-      color: white;
-      font-size: 100px;
-      font-weight: 100px;
-   }
-
-   .main p {
-     color: white;
-     font-size: 50px;
-     font-weight: 50px;
-   }
-
-   .main button {
-      background-color: purple;
-      color: white;
-      border: none;
-   }
-
-/*  Pros Awards 
-   ============== */
-   
-   .pros {
+   .tutorial-heading {
       text-align: center;
    }
-
-   .purple {
-   color: purple;
+   
+   .black {
+      color: black;
    }
 
-   .white {
-    color: white;
+   .purple{
+      color: purple;
    }
 
-   .award {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+   .tutorial {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .Massey {
+      display: flex;
+   }
+
+   .rating {
+      display: flex;
+   }
+
+   /*Free membership
+   =================== */
+
+   .free-membership{
+      display: flex;
+      background-color: navy;
+   }
+
+   .membership-heading {
+      text-align: center;
    }
    
-   .Phillip, .Nannie, .Bruce, .Henry{
-      margin-right: 80px;
-   }
-
-
-/* Review
- ================== */
-
- .testimonial {
-   display: flex;
-   align-items: space-between;
-   background-color: purple;  
- }
-
-
