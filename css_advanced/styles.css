@@ -54,7 +54,7 @@
        font-weight: 50px;
      }
   
-     .main button {
+      .main button {
         background-color: purple;
         color: white;
         border: none;
@@ -150,3 +150,8 @@
       display: flex;
    }
    
+   .free-membership button {
+      background-color: purple;
+      color: white;
+      border: none;
+   }
