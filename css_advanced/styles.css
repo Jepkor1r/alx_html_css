@@ -157,13 +157,28 @@
       border: none;
    }
 
-
-   .contact-us{
+   /* FAQ
+   ================ */
+   h2{
+      text-align: center;
+   }
+   
+   .FAQ{
       display: flex;
       justify-content: space-between;
    }
-
-   small {
-    text-align: center;
+/*Footer
+ ================== */
+   .footer{
+      background-color: navy;
    }
 
+  .contact-us {
+   display: flex;
+   justify-content: space-between;
+  }
+
+  .small{
+   display: flex;
+   justify: center;
+  }
