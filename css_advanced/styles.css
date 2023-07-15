@@ -123,6 +123,7 @@
    .tutorial {
       display: flex;
       justify-content: space-between;
+      padding: 10px;
    }
 
    .Massey {
@@ -131,6 +132,7 @@
 
    .rating {
       display: flex;
+      justify-content: space-between;
    }
 
    /*Free membership
@@ -139,6 +141,7 @@
    .free-membership{
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
       align-items: center;
       background-color: navy;
    }
@@ -149,6 +152,7 @@
 
    .smiley {
       display: flex;
+      margin: 80px;
    }
    
    .free-membership button {
@@ -156,3 +160,31 @@
       color: white;
       border: none;
    }
+
+   /* FAQ
+   ================ */
+
+   h2 {
+      text-align: center;
+   }
+
+   .FAQ {
+      display: flex;
+      justify-content: space-between;
+   }
+
+ /* Footer
+   ================ */
+   .footer{
+      background-color: navy;
+   }
+
+   .contact-us{
+      display: flex;
+      justify-content: space-between;
+   }
+
+   small {
+    text-align: center;
+   }
+
