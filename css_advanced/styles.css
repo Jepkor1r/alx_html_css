@@ -1,7 +1,3 @@
-/*Global
-================= */
-
-
 /* Banner
    ================ */
 
@@ -28,73 +24,73 @@
    ================= */
 
    .nav-item a {
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+   } 
+
+/*  Main
+   ================= */
+   
+   .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   h1 {
       color: white;
-      padding: 10px;
-      font-weight: bold;
-     } 
-  
-  /*  Main
-     ================= */
-     
-     .main {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-     }
-  
-     h1 {
-        color: white;
-        font-size: 100px;
-        font-weight: 100px;
-     }
-  
-     .main p {
-       color: white;
-       font-size: 50px;
-       font-weight: 50px;
-     }
-  
-      .main button {
-        background-color: purple;
-        color: white;
-        border: none;
-     }
-  
-  /*  Pros Awards 
-     ============== */
-     
-     .pros {
-        text-align: center;
-     }
-  
-     .purple {
-     color: purple;
-     }
-  
-     .white {
+      font-size: 100px;
+      font-weight: 100px;
+   }
+
+   .main p {
+     color: white;
+     font-size: 50px;
+     font-weight: 50px;
+   }
+
+   .main button {
+      background-color: purple;
       color: white;
-     }
-  
-     .award {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-     }
-     
-     .Phillip, .Nannie, .Bruce, .Henry{
-        margin-right: 80px;
-     }
-  
-  
-  /* Review
-   ================== */
-  
-   .testimonial {
-     display: flex;
+      border: none;
+   }
+
+/*  Pros Awards 
+   ============== */
+   
+   .pros {
+      text-align: center;
+   }
+
+   .purple {
+   color: purple;
+   }
+
+   .white {
+    color: white;
+   }
+
+   .award {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+   
+   .Phillip, .Nannie, .Bruce, .Henry{
+      margin-right: 80px;
+   }
+
+
+/* Review
+ ================== */
+
+ .testimonial {
+   display: flex;
      justify-content: space-between;
      padding: 10px;
-     background-color: purple;  
-   }
+   background-color: purple;  
+ }
 
    .testimonial img {
       margin: 80px;
@@ -107,11 +103,11 @@
 
    /* Tutorials
    ================= */
-
+ 
    .tutorial-heading {
       text-align: center;
    }
-   
+
    .black {
       color: black;
    }
@@ -154,30 +150,13 @@
       display: flex;
       margin: 80px;
    }
-   
+
    .free-membership button {
       background-color: purple;
       color: white;
       border: none;
    }
 
-   /* FAQ
-   ================ */
-
-   h2 {
-      text-align: center;
-   }
-
-   .FAQ {
-      display: flex;
-      justify-content: space-between;
-   }
-
- /* Footer
-   ================ */
-   .footer{
-      background-color: navy;
-   }
 
    .contact-us{
       display: flex;
