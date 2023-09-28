@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="#" method="post">
+    <form action="#" method="post" onsubmit="return validatePassword()">
         <ul>
             <li>
                 <label for="name">Name:</label>
@@ -29,5 +29,17 @@
             </li>
         </ul>
     </form>
+    <script>
+        const validatePassword = () => {
+            let password = document.getElementById("pswd").value;
+            let confirmPassword = document.getElementById("confirmpswd").value ; 
+            
+            if(password != confirmPassword) {
+            alert("Password mismatch!Please try again.")
+            return false;
+        }
+        return true;
+    };
+    </script>
 </body>
 </html>
