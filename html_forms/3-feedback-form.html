@@ -17,10 +17,13 @@
                 <input type="email" id="mail" name="email" required>
             </li>
             <li>
-                <input type="checkbox" name="feedbacks" value="Excellent">Excellent
-                <input type="checkbox" name="feedbacks" value="Good">Good
-                <input type="checkbox" name="feedbacks" value="Average">Average
-                <input type="checkbox" name="feedbacks" value="Poor">Poor
+                <fieldset>
+                    <legend>Feedback:</legend>
+                    <input type="checkbox" name="feedbacks" value="Excellent">Excellent
+                    <input type="checkbox" name="feedbacks" value="Good">Good
+                    <input type="checkbox" name="feedbacks" value="Average" required>Average
+                    <input type="checkbox" name="feedbacks" value="Poor">Poor
+                </fieldset>
             </li>
             <li>
                 <label for="file">File upload:</label>
